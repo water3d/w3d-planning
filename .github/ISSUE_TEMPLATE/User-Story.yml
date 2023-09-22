@@ -41,6 +41,22 @@ body:
         - Somewhere Else (please describe)
     validations:
       required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component this relates to
+      multiple: true
+      description: What component of Water3D might this story related to
+      options:
+        - All
+        - Simple Water Balance
+        - Advanced Water Balance with Climate Projections
+        - Advanced Water Balance with Climate Projections and Optimizations/AI
+        - Phenometrics
+        - Fallowing Prediction
+        - Water Market Simulations
+    validations:
+      required: true
   - type: textarea
     id: users-needs
     attributes:
