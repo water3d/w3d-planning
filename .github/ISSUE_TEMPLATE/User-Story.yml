@@ -23,7 +23,7 @@ body:
       placeholder: Growers
     validations:
       required: true
-- type: dropdown
+  - type: dropdown
     id: region
     attributes:
       label: Region this supports
