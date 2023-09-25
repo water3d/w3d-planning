@@ -77,6 +77,10 @@ body:
     id: existing-tools
     attributes:
       label: Do existing tools provide any of this functionality? What purpose will it serve to include in Water3D?
+  - type: textarea
+    id: data-sources-models
+    attributes:
+      label: What existing data sources or models might be useful in building out tools that support this user story?
   - type: dropdown
     id: time-estimate
     attributes:
